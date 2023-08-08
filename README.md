@@ -1,2 +1,0 @@
-# luke.github.io
-GitBlog
