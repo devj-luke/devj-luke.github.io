@@ -1,19 +1,19 @@
 # SEO Values
-title: Dracula GitHub Pages
-tagline: The renowned dark theme for ...
-description: The renowned dark theme for ...
+title: Luke Blog
+tagline: devj-luke
+description: devj-luke
 url: https://devj-luke.github.io/
-twitter: https://twitter.com/zenorocha
-logo: https://draculatheme.com/static/icons/pack-1/045-dracula.svg
+twitter: https://twitter.com/devj_luke
+logo: https://twitter.com/devj_luke/photo
 
 # Google Analytics ID
 google_analytics:
 
 # GitHub Values
 github:
-  owner_name: Dracula
-  owner_url: https://github.com/dracula
-  repository_url: https://github.com/dracula/gh-pages
+  owner_name: luke
+  owner_url: https://devj-luke.github.io/
+  repository_url: https://github.com/devj-luke
 
 show_downloads: true
 show_header: true
