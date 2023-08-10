@@ -1,7 +1,7 @@
 # SEO Values
 title: Luke Blog
-tagline: devj-luke
-description: devj-luke
+tagline: productivity
+description: productivity
 url: https://devj-luke.github.io/
 twitter: https://twitter.com/devj_luke
 logo: https://twitter.com/devj_luke/photo
@@ -12,7 +12,7 @@ google_analytics:
 # GitHub Values
 github:
   owner_name: luke
-  owner_url: https://devj-luke.github.io/
+  owner_url: https://github.com/devj-luke
   repository_url: https://github.com/devj-luke
 
 show_downloads: true
