@@ -21,10 +21,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $cyan;
   margin:0 0 10px;
   font-weight: normal;
+  scroll-margin-top:65px;
 }
 
-p, ul, ol, table, pre, dl {
+p, ol, table, pre, dl {
   margin:0 0 20px;
+}
+ul{
+  margin: 0;
 }
 
 h1, h2, h3 {
@@ -422,4 +426,24 @@ section {
       width: 100%;
     }
   }
+}
+@media (min-width: 1700px) {
+  ul#markdown-toc {
+    position: fixed;
+    top: 250px;
+    bottom: 0;
+    left: calc(50vw + 410px);
+    width: 380px;
+    z-index: 1;
+    font-size: 0.9rem;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border: 0px solid;
+    line-height: 1.5;
+  }
+}
+#markdown-toc {
+  border: 1px solid;
+  padding: 10px 10px 10px 30px;
+  line-height: 1.5;
 }
