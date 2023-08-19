@@ -30,14 +30,6 @@
 <div class="wrapper">
   {% if site.show_header %}<section>
   {% else %}<section class="no-header">{% endif %}
-  <div id="title">
-    {% if page.icon %}
-    <img src="{{ page.icon | relative_url }}" />
-    {% endif %}
-    <h1>{{ site.title | default: site.github.repository_name }}</h1>
-    <p>{{ site.description | default: site.github.project_tagline }}</p>
-    <hr>
-  </div>
 
   {{ content }}
 
