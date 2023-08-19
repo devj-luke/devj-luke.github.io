@@ -277,17 +277,9 @@ details[open] {
         float: right;
         margin-left: 0px;
       }
-
-      &.downloads {
-        float: right;
-        margin-left: 6px;
-      }
-
-      &.title {
-        color: $foreground;
-        float: right;
-        margin-right: 10px;
-        font-size: 11px;
+      &.main {
+        float: left;
+        margin-left: 0px;
       }
     }
   }
@@ -417,7 +409,8 @@ section {
     margin-top: 40px;
   }
 
-  .about{
+  .about,
+  .main{
     margin-top: 6px;
   }
   #header nav li a{
