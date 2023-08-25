@@ -443,3 +443,15 @@ section {
   padding: 10px 10px 10px 30px;
   line-height: 1.5;
 }
+
+.index-date{
+  color: $orange;
+}
+.index-post:hover .index-date,
+.index-post:hover .index-title
+{
+  color: $red;
+}
+.index-title{
+  color: $foreground;
+}
